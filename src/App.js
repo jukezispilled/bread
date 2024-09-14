@@ -70,7 +70,7 @@ function App() {
 
   return (
     <div className="h-screen w-screen flex justify-center items-center bg-[#32FF53] relative overflow-clip">
-      <div className='absolute top-5 text-xs md:text-lg font-semibold'>CA: XXXXXXXXXXXXXXX</div>
+      <div className='absolute top-5 text-xs md:text-lg font-semibold'>CA: </div>
       <img src="b.png" className='w-[45%] md:w-[35%] absolute left-0 bottom-0' alt="Background" />
 
       {fallingBenjis.map(benji => (
@@ -86,7 +86,7 @@ function App() {
         />
       ))}
 
-      <div className="w-96 h-[600px] bg-white rounded-2xl border flex flex-col z-10 relative overflow-hidden">
+      <div className="w-80 md:w-96 h-[600px] bg-white rounded-2xl border flex flex-col z-10 relative overflow-hidden">
         <div className="bg-gray-100 p-4 flex items-center justify-between">
           <div className="flex items-center">
             <ChevronLeft className="text-blue-500 mr-2" />
