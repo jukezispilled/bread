@@ -70,7 +70,7 @@ function App() {
 
   return (
     <div className="h-screen w-screen flex justify-center items-center bg-[#32FF53] relative overflow-clip">
-      <div className='absolute top-5 text-xs md:text-lg font-semibold'>CA: XXXXXXXXXXXXX</div>
+      <div className='absolute top-5 text-xs md:text-lg font-semibold'>CA: FncXhekipo392Vi6BVCkygKcdiPgMM5Puq8X3qSNpump</div>
       <img src="b.png" className='w-[45%] md:w-[35%] absolute left-0 bottom-0' alt="Background" />
 
       {fallingBenjis.map(benji => (
