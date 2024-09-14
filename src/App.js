@@ -6,7 +6,7 @@ import './App.css'; // Make sure to import the CSS file
 const initialMessages = [
   { id: 1, sender: 'ansem', content: 'lets get to pumpin my n*ggaz', timestamp: '6:00 PM', avatar: './ansem.jpg' },
   { id: 2, sender: 'wolf', content: 'wolf reporting for shill duty', timestamp: '6:01 PM', avatar: './wolf.jpg' },
-  { id: 3, sender: 'mitch', content: 'aped 5 Sol now Im getting a message dont nuke', timestamp: '6:02 PM', avatar: './mitch.jpg' },
+  { id: 3, sender: 'mitch', content: 'aped 5 Sol now Im getting a massage dont nuke', timestamp: '6:02 PM', avatar: './mitch.jpg' },
   { id: 4, sender: 'yelo', content: '🖍️🖍️🖍️🖍️', timestamp: '6:02 PM', avatar: './yelo.jpg' },
   { id: 5, sender: 'slingoor', content: 'could send', timestamp: '6:02 PM', avatar: './sling.jpg' },
 ];
@@ -70,7 +70,7 @@ function App() {
 
   return (
     <div className="h-screen w-screen flex justify-center items-center bg-[#32FF53] relative overflow-clip">
-      <div className='absolute top-5 text-xs md:text-lg font-semibold'>CA: XXXXXXXXXXXXXX</div>
+      <div className='absolute top-5 text-xs md:text-lg font-semibold'>CA: XXXXXXXXXXXXX</div>
       <img src="b.png" className='w-[45%] md:w-[35%] absolute left-0 bottom-0' alt="Background" />
 
       {fallingBenjis.map(benji => (
