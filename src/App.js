@@ -86,7 +86,7 @@ function App() {
         />
       ))}
 
-      <div className="w-96 h-[600px] bg-white rounded-2xl border flex flex-col z-10 relative overflow-hidden">
+      <div className="w-[85vh] md:w-96 h-[600px] bg-white rounded-2xl border flex flex-col z-10 relative overflow-hidden">
         <div className="bg-gray-100 p-4 flex items-center justify-between">
           <div className="flex items-center">
             <ChevronLeft className="text-blue-500 mr-2" />
